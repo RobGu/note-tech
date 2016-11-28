@@ -1,0 +1,13 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the extensions.json format
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "dzannotti.vscode-babel-coloring",
+    "streetsidesoftware.code-spell-checker",
+    "xabikos.JavaScriptSnippets",
+    "naumovs.node-modules-resolve",
+    "vsmobile.vscode-react-native",
+    "waderyan.gitblame"
+  ]
+}
