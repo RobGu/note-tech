@@ -24,5 +24,10 @@
     "**/bower_components": true
   },
 
-  "eslint.autoFixOnSave": true
+  "eslint.autoFixOnSave": true,
+
+  "javascript.commonjs.resolve.moduleDirectory": [
+    "node_modules",
+    "src"
+  ]
 }
