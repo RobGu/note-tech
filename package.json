@@ -4,5 +4,11 @@
   "private": true,
   "repository": {
     "url": "git@github.com:RobGu/tech-notes.git"
+  },
+  "importSort": {
+    ".js, .jsx,.css,.scss": {
+      "parser": "babylon",
+      "style": "module"
+    }
   }
 }
