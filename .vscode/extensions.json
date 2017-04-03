@@ -6,6 +6,8 @@
     "xabikos.JavaScriptSnippets",
     "naumovs.node-modules-resolve",
     "vsmobile.vscode-react-native",
-    "waderyan.gitblame"
+    "waderyan.gitblame",
+    "alefragnani.project-manager",
+    "peterjuras.sort-imports"
   ]
 }
