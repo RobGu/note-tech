@@ -11,6 +11,6 @@
 - 《敏捷软件开发 : 原则、模式与实践》
 - 《TCP/IP 详解 卷1》
 - [how-to-name-things](http://slides.com/inetfuture/how-to-name-things)
-- [RESTful API](restful_api.md)
+- [RESTful API](../integration/restful_api.md)
 - [Git](git.md)
 - [the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
