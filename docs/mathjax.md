@@ -1,8 +1,8 @@
-##测试##
+#测试
 
 This expression $\sqrt{3x-1}+(1+x)^2$ is an example of a  inline equation.
 
-he Lorenz Equations:
+the Lorenz Equations:
 
 $$
 \begin{aligned}
