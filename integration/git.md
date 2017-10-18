@@ -1,3 +1,17 @@
+# Install
+## Ubuntu
+```
+sudo apt-get install git
+```
+
+## MAC
+```
+brew install git
+```
+
+## Windows
+https://git-scm.com/download/win
+
 # Must Done Configuration
 
 ```shell
@@ -14,6 +28,20 @@ git config --global alias.l "log --all --graph --pretty=format:'%Cred%h%Creset -
 git config --global alias.s status -sb
 git config --global alias.reset-permission '!git diff -p -R --no-color | grep -E "^(diff|(old|new) mode)" --color=never | git apply'
 ```
+
+# SSH Keys
+## 生成秘钥
+- 检查是否已生成. 如果有文件,则复制该结果.
+```
+cat ~/.ssh/id_rsa.pub
+```
+- 如果没有该文件, 运行下面命令生成新的公钥. 然后重复上一步
+```
+ssh-keygen -t rsa -C “user@example.com”
+```
+
+## 添加秘钥
+- https://github.com/settings/keys
 
 # Books
 
