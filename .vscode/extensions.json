@@ -1,13 +1,19 @@
 {
   "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "dzannotti.vscode-babel-coloring",
-    "streetsidesoftware.code-spell-checker",
-    "xabikos.JavaScriptSnippets",
-    "naumovs.node-modules-resolve",
+    "waderyan.gitblame", // git 提交记录
+    "streetsidesoftware.code-spell-checker", // 单词拼写检查
+    "humao.rest-client",
+
+    // es 相关
+    "dbaeumer.vscode-eslint", // 代码规范检查
+    "dzannotti.vscode-babel-coloring", // babel 语法高亮
+    "peterjuras.sort-imports", // import 排序
+
+    // react-native
     "vsmobile.vscode-react-native",
-    "waderyan.gitblame",
-    "alefragnani.project-manager",
-    "peterjuras.sort-imports"
+
+    // Vue
+    "octref.vetur", // 语法高亮
+    "hollowtree.vue-snippets" // 语法提示
   ]
 }
