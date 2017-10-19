@@ -19,6 +19,7 @@ git config --global user.name ???
 git config --global user.email ???
 git config --global core.editor vim
 git config --global push.default simple
+git config --global core.ignorecase false
 git config --global rerere.enabled true
 git config --global alias.c checkout
 git config --global alias.d diff
