@@ -1,6 +1,6 @@
 {
   "recommendations": [
-    "waderyan.gitblame", // git 提交记录
+    "eamodio.gitlens", // git 提交记录
     "streetsidesoftware.code-spell-checker", // 单词拼写检查
     "humao.rest-client",
 
