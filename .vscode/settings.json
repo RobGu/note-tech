@@ -25,23 +25,10 @@
   },
 
   "eslint.autoFixOnSave": true,
-
-  "javascript.commonjs.resolve.moduleDirectory": [
-    "node_modules",
-    "src"
-  ],
-
-  // alefragnani.project-manager， 配在 user setting
-  "projectManager.openInNewWindow": false,
-  "projectManager.vscode.baseFolders":[
-    "D:\\Document\\BaoMi",
-    "D:\\Document\\Demo"
-  ],
-  "projectManager.vscode.ignoredFolders": [
-    "node_modules",
-    "out",
-    "typings",
-    "test"
-  ],
-  "projectManager.vscode.maxDepthRecursion": 1
+  "gitlens.remotes": [
+    {
+      "domain": "github.com",
+      "type": "GitHub"
+    }
+  ]
 }
