@@ -12,8 +12,12 @@
     // react-native
     "vsmobile.vscode-react-native",
 
+    // style 相关
+    "shinnn.stylelint",
+
     // Vue
     "octref.vetur", // 语法高亮
-    "hollowtree.vue-snippets" // 语法提示
+    "hollowtree.vue-snippets", // 语法提示
+    "dariofuzinato.vue-peek"
   ]
 }
