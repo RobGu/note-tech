@@ -1,34 +1,121 @@
 {
-  "editor.tabSize": 2,
-  "editor.insertSpaces": true,
-  "editor.wordWrapColumn": 120,
-  "editor.wordWrap": "on",
-  "editor.renderWhitespace": "all",
-
-  "extensions.autoUpdate": true,
-
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4
+  },
+  "[markdown]": {
+    "editor.tabSize": 4
+  },
+  "cSpell.userWords": [
+    "Upsert",
+    "Weixin",
+    "augmentum",
+    "bodyparser",
+    "stylelint",
+    "weapp",
+    "weappsdk",
+    "wechat",
+    "wxapp"
+  ],
   "diffEditor.ignoreTrimWhitespace": true,
-
-  "javascript.validate.enable": false,
-
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
+  "editor.fontSize": 16,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 120,
+  "eslint.autoFixOnSave": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "*.jenkinsfile": "groovy",
+    "*.sql": "sql",
+    "*.wxml": "html",
+    "*.wxss": "css",
+    ".stylelintrc": "json"
+  },
+  "files.autoSave": "onWindowChange",
+  "files.autoSaveDelay": 60000,
   "files.eol": "\n",
   "files.exclude": {
+    "**/.DS_Store": true,
     "**/.git": true,
-    "**/.DS_Store": true
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true
   },
-
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/bower_components": true
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true
   },
-
-  "eslint.autoFixOnSave": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitNotFoundWarning": true,
+    "suppressLineUncommittedWarning": true,
+    "suppressResultsExplorerNotice": true,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": true,
+    "suppressWelcomeNotice": true
+  },
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.historyExplorer.enabled": false,
   "gitlens.remotes": [
     {
-      "domain": "github.com",
-      "type": "GitHub"
+      "domain": "http://gitee.com/",
+      "name": "gitee",
+      "type": "Custom",
+      "urls": {
+        "branch": "https://http://gitee.com//${repo}/commits/${branch}",
+        "branches": "https://http://gitee.com//${repo}/branches",
+        "commit": "https://http://gitee.com//${repo}/commit/${id}",
+        "file": "https://http://gitee.com//${repo}?path=${file}${line}",
+        "fileInBranch": "https://http://gitee.com//${repo}/blob/${branch}/${file}${line}",
+        "fileInCommit": "https://http://gitee.com//${repo}/blob/${id}/${file}${line}",
+        "fileLine": "#L${line}",
+        "fileRange": "#L${start}-L${end}",
+        "repository": "https://http://gitee.com//${repo}"
+      }
+    },
+    {
+      "domain": "git.bzy.ai",
+      "name": "bzy",
+      "type": "Custom",
+      "urls": {
+        "branch": "https://git.bzy.ai/${repo}/commits/${branch}",
+        "branches": "https://git.bzy.ai/${repo}/branches",
+        "commit": "https://git.bzy.ai/${repo}/commit/${id}",
+        "file": "https://git.bzy.ai/${repo}?path=${file}${line}",
+        "fileInBranch": "https://git.bzy.ai/${repo}/blob/${branch}/${file}${line}",
+        "fileInCommit": "https://git.bzy.ai/${repo}/blob/${id}/${file}${line}",
+        "fileLine": "#L${line}",
+        "fileRange": "#L${start}-L${end}",
+        "repository": "https://git.bzy.ai/${repo}"
+      }
     }
-  ]
+  ],
+  "javascript.validate.enable": false,
+  "mdmath.delimiters": "gitlab",
+  "pasteImage.path": "${currentFileDir}/images",
+  "search.exclude": {
+    "**/bower_components": true,
+    "**/node_modules": true,
+    ".vscode": true
+  },
+  "search.location": "sidebar",
+  "sort-imports.suppress-warnings": true,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.shell.linux": "/bin/zsh",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "typescript.check.npmIsInstalled": false,
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.startupEditor": "newUntitledFile"
 }
