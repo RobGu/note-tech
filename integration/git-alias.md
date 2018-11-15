@@ -1,4 +1,5 @@
-然后在找到.bash_profile
+linux/macos 找到 `.bash_profile`
+windows 找到 `/etc/bash.bashrc`
 
 推荐以下别名配置
 ```sh
