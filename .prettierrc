@@ -1,0 +1,30 @@
+{
+  "overrides": [
+    {
+      "files": [
+        "*.json",
+        ".*rc"
+      ],
+      "options": {
+        "parser": "json-stringify"
+      }
+    },
+    {
+      "files": [
+        "*.wxml"
+      ],
+      "options": {
+        "parser": "html",
+        "printWidth": 80
+      }
+    },
+    {
+      "files": [
+        "*.wxss"
+      ],
+      "options": {
+        "parser": "css"
+      }
+    }
+  ]
+}

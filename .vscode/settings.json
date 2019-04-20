@@ -3,6 +3,15 @@
     "editor.insertSpaces": false,
     "editor.tabSize": 4
   },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[markdown]": {
     "editor.tabSize": 4
   },
@@ -17,8 +26,10 @@
     "wechat",
     "wxapp"
   ],
+  "css.validate": false,
   "diffEditor.ignoreTrimWhitespace": true,
-  "editor.fontSize": 16,
+  "editor.fontSize": 20,
+  "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.renderWhitespace": "all",
   "editor.tabSize": 2,
@@ -30,11 +41,10 @@
   "explorer.confirmDragAndDrop": false,
   "extensions.ignoreRecommendations": true,
   "files.associations": {
-    "*.jenkinsfile": "groovy",
-    "*.sql": "sql",
     "*.wxml": "html",
+    "*.wxs": "javascript",
     "*.wxss": "css",
-    ".stylelintrc": "json"
+    "*rc": "json"
   },
   "files.autoSave": "onWindowChange",
   "files.autoSaveDelay": 60000,
@@ -56,6 +66,7 @@
   },
   "git.autofetch": true,
   "git.confirmSync": false,
+  "git.ignoreLimitWarning": true,
   "gitlens.advanced.messages": {
     "suppressCommitNotFoundWarning": true,
     "suppressLineUncommittedWarning": true,
@@ -66,7 +77,6 @@
   },
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
-  "gitlens.historyExplorer.enabled": false,
   "gitlens.remotes": [
     {
       "domain": "http://gitee.com/",
@@ -102,8 +112,17 @@
     }
   ],
   "javascript.validate.enable": false,
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "*.swagger.json"
+      ],
+      "url": "http://json.schemastore.org/swagger-2.0"
+    }
+  ],
   "mdmath.delimiters": "gitlab",
   "pasteImage.path": "${currentFileDir}/images",
+  "prettier.eslintIntegration": true,
   "search.exclude": {
     "**/bower_components": true,
     "**/node_modules": true,
@@ -116,6 +135,5 @@
   "terminal.integrated.shell.osx": "/bin/zsh",
   "typescript.check.npmIsInstalled": false,
   "window.zoomLevel": 0,
-  "workbench.activityBar.visible": true,
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.activityBar.visible": true
 }

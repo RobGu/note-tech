@@ -2,26 +2,22 @@
   "recommendations": [
     "eamodio.gitlens", // git 提交记录
     "streetsidesoftware.code-spell-checker", // 单词拼写检查
-    "humao.rest-client",
-
-    // es 相关
-    "dbaeumer.vscode-eslint", // 代码规范检查
+    "esbenp.prettier-vscode",
     "dzannotti.vscode-babel-coloring", // babel 语法高亮
-    "amatiasq.sort-imports", // import 排序
+    "richie5um2.vscode-sort-json",
+    "tyriar.sort-lines",
+    "wmaurer.change-case",
 
-    // react-native
-    "vsmobile.vscode-react-native",
-
-    // style 相关
-    "shinnn.stylelint",
+    // Lint
+    "dbaeumer.vscode-eslint", // 代码规范检查
+    "davidanson.vscode-markdownlint",
 
     // Vue
     "octref.vetur", // 语法高亮
     "hollowtree.vue-snippets", // 语法提示
     "dariofuzinato.vue-peek",
 
-    "richie5um2.vscode-sort-json",
-    "tyriar.sort-lines",
-    "wmaurer.change-case"
+    // swagger
+    "arjun.swagger-viewer"
   ]
 }
