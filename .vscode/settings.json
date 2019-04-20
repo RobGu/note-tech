@@ -93,22 +93,6 @@
         "fileRange": "#L${start}-L${end}",
         "repository": "https://http://gitee.com//${repo}"
       }
-    },
-    {
-      "domain": "git.bzy.ai",
-      "name": "bzy",
-      "type": "Custom",
-      "urls": {
-        "branch": "https://git.bzy.ai/${repo}/commits/${branch}",
-        "branches": "https://git.bzy.ai/${repo}/branches",
-        "commit": "https://git.bzy.ai/${repo}/commit/${id}",
-        "file": "https://git.bzy.ai/${repo}?path=${file}${line}",
-        "fileInBranch": "https://git.bzy.ai/${repo}/blob/${branch}/${file}${line}",
-        "fileInCommit": "https://git.bzy.ai/${repo}/blob/${id}/${file}${line}",
-        "fileLine": "#L${line}",
-        "fileRange": "#L${start}-L${end}",
-        "repository": "https://git.bzy.ai/${repo}"
-      }
     }
   ],
   "javascript.validate.enable": false,

@@ -1,23 +1,23 @@
 {
   "recommendations": [
+    "dbaeumer.vscode-eslint", // 代码规范检查
     "eamodio.gitlens", // git 提交记录
-    "streetsidesoftware.code-spell-checker", // 单词拼写检查
     "esbenp.prettier-vscode",
-    "dzannotti.vscode-babel-coloring", // babel 语法高亮
-    "richie5um2.vscode-sort-json",
+    "streetsidesoftware.code-spell-checker", // 单词拼写检查
     "tyriar.sort-lines",
     "wmaurer.change-case",
 
-    // Lint
-    "dbaeumer.vscode-eslint", // 代码规范检查
-    "davidanson.vscode-markdownlint",
-
     // Vue
-    "octref.vetur", // 语法高亮
-    "hollowtree.vue-snippets", // 语法提示
     "dariofuzinato.vue-peek",
+    "hollowtree.vue-snippets", // 语法提示
+    "octref.vetur", // 语法高亮
 
     // swagger
-    "arjun.swagger-viewer"
+    "arjun.swagger-viewer",
+    "richie5um2.vscode-sort-json",
+
+    // Markdown
+    "davidanson.vscode-markdownlint",
+    "mushan.vscode-paste-image"
   ]
 }
