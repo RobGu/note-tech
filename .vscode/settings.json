@@ -1,8 +1,4 @@
 {
-  "[go]": {
-    "editor.insertSpaces": false,
-    "editor.tabSize": 4
-  },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -15,20 +11,8 @@
   "[markdown]": {
     "editor.tabSize": 4
   },
-  "cSpell.userWords": [
-    "Upsert",
-    "Weixin",
-    "augmentum",
-    "bodyparser",
-    "stylelint",
-    "weapp",
-    "weappsdk",
-    "wechat",
-    "wxapp"
-  ],
-  "css.validate": false,
   "diffEditor.ignoreTrimWhitespace": true,
-  "editor.fontSize": 20,
+  "editor.fontSize": 32,
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.renderWhitespace": "all",
@@ -37,9 +21,6 @@
   "editor.wordWrap": "on",
   "editor.wordWrapColumn": 120,
   "eslint.autoFixOnSave": true,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "extensions.ignoreRecommendations": true,
   "files.associations": {
     "*.wxml": "html",
     "*.wxs": "javascript",
@@ -47,23 +28,10 @@
     "*rc": "json"
   },
   "files.autoSave": "onWindowChange",
-  "files.autoSaveDelay": 60000,
   "files.eol": "\n",
-  "files.exclude": {
-    "**/.DS_Store": true,
-    "**/.git": true,
-    "**/.hg": true,
-    "**/.svn": true,
-    "**/CVS": true
-  },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/node_modules/**": true
-  },
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.ignoreLimitWarning": true,
@@ -95,7 +63,6 @@
       }
     }
   ],
-  "javascript.validate.enable": false,
   "json.schemas": [
     {
       "fileMatch": [
@@ -111,16 +78,8 @@
   "minapp-vscode.wxmlFormatter": "prettier",
   "pasteImage.path": "${currentFileDir}/images",
   "prettier.eslintIntegration": true,
-  "search.exclude": {
-    "**/bower_components": true,
-    "**/node_modules": true,
-    ".vscode": true
-  },
-  "search.location": "sidebar",
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.shell.linux": "/bin/zsh",
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "typescript.check.npmIsInstalled": false,
-  "window.zoomLevel": 0,
-  "workbench.activityBar.visible": true
+  "typescript.check.npmIsInstalled": false
 }
