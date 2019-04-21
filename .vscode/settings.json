@@ -105,6 +105,10 @@
     }
   ],
   "mdmath.delimiters": "gitlab",
+  "minapp-vscode.prettier": {
+    "parser": "html"
+  },
+  "minapp-vscode.wxmlFormatter": "prettier",
   "pasteImage.path": "${currentFileDir}/images",
   "prettier.eslintIntegration": true,
   "search.exclude": {
@@ -113,7 +117,6 @@
     ".vscode": true
   },
   "search.location": "sidebar",
-  "sort-imports.suppress-warnings": true,
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.shell.linux": "/bin/zsh",
   "terminal.integrated.shell.osx": "/bin/zsh",
