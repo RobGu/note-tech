@@ -3,7 +3,7 @@
     {
       "files": [
         "*.json",
-        ".*rc"
+        ".**rc"
       ],
       "options": {
         "parser": "json-stringify"
@@ -11,19 +11,30 @@
     },
     {
       "files": [
-        "*.wxml"
+        "*.wxss",
+        "*.css"
       ],
       "options": {
+        "parser": "css"
+      }
+    },
+    {
+      "files": [
+        "*.wxml",
+        ".html"
+      ],
+      "options": {
+        "htmlWhitespaceSensitivity": "ignore",
         "parser": "html",
         "printWidth": 80
       }
     },
     {
       "files": [
-        "*.wxss"
+        "*.md"
       ],
       "options": {
-        "parser": "css"
+        "parser": "markdown"
       }
     }
   ]

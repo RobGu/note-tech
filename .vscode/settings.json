@@ -12,7 +12,6 @@
     "editor.tabSize": 4
   },
   "diffEditor.ignoreTrimWhitespace": true,
-  "editor.fontSize": 32,
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.renderWhitespace": "all",
